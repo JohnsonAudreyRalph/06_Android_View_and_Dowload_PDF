@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#918585">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/download"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            android:src="@drawable/baseline_download_24"
+            android:importantForAccessibility="no"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="5sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/PDF_View"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.github.barteksc.pdfviewer.PDFView>
+
+    </LinearLayout>
+
+</LinearLayout>

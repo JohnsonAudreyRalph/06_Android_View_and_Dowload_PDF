@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme._06_Android_View_and_Dowload_PDF" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme._06_Android_View_and_Dowload_PDF" parent="Base.Theme._06_Android_View_and_Dowload_PDF" />
+</resources>
